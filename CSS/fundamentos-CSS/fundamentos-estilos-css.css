@@ -1,0 +1,30 @@
+/* aqui não vai nenhuma tag html, apenas CSS */
+
+h1 {
+background-color: yellowgreen;
+font-family: candara;
+color: rgb(75,0,130); /* utilizando o sistema de cores rgb e causando o comflito de propriedades*/
+color: #480082; /*usando cor exadecimal*/
+}
+
+p,ul{
+border: 3px solid green;
+}
+
+
+
+ul{
+    list-style-type: upper-roman; /* define o tipo de marcador da lista */
+}
+
+span{
+    text-decoration:  none; /* retira o efeito do propriedade*/
+    color: blue;
+    display: inline-block; /*  propriedade adicionaque que deve ser incluida qpara que o navegador retire o soblinhado dentro do span*/
+}
+
+/*usando classe no CSS*/
+.alterar-500px{
+    width:500px;
+    border: 1px solid;
+}

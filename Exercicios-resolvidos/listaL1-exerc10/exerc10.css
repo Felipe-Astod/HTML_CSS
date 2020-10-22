@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+a.formatar-fundo:hover {
+ background-color: #e1e1e1; /*item a*/
+}
+
+a.formatar-fundo {
+ text-decoration: none; /*item b*/
+}
+
+p.imagem-de-fundo {
+ background-image: url(https://images.vexels.com/media/users/3/207562/isolated/lists/41c7953fdacfdbbfa7e6c4876bbf7cf6-desenho-animado-mao-polegar-para-cima.png); /*item c*/
+}
+
+p#imagem-de-fundo {
+ background-image: url(https://images.vexels.com/media/users/3/197214/isolated/lists/53a6b840f3735deacd77b8ddc5697d3c-mao-de-desenho-animado-arremessando-coracao.png); /*item d*/
+}
+
+ul {
+ list-style-type: none; /*item e*/
+}
+
+ul.altera-marcador {
+ list-style-type: upper-roman; /*item f*/
+}
+
+ul#formata-fonte {
+ font-family: Oswald; /*item g*/
+ color: green;      /*item g*/
+}
+
+a.formatar-fonte:focus {
+ color: red;  /*item h*/
+}
+
+/*sempre que precisarmos centralizar na vertical (eixo y) uma imagem de fundo usando valores percentuais, devemos, sempre, definirmos uma altura (height) para o elemento-pai*/
+html {
+ height: 100%;
+}
+
+body {/*item i*/
+ background-image: url(https://i.pinimg.com/originals/3e/1f/5c/3e1f5cadbb437c66189acbf2c7dff2b7.png);
+
+ background-repeat: repeat-x; /*item i1*/
+ background-repeat: repeat-y;/*item i2*/
+ background-repeat: no-repeat;
+ background-position: 50% 50%;  /*item i3*/
+ 
+
+}

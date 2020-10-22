@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+ margin: 0;
+ font-family: "Fjalla One";
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ border-bottom: 1px solid #13073a;
+ background: rgba(136, 124, 175, 0.4);
+ box-shadow: 0 0 5px 5px #261758;
+ margin-bottom: 40px;
+ text-shadow: rgba(255, 255, 255, 0.5);
+}
+
+/*formatação do formulário*/
+form {
+ border: 1px groove #13073a;
+ width: 40%;
+ margin: auto;
+ margin-bottom: 40px;
+ box-shadow: 5px 5px 5px #13073a;
+ padding: 20px;
+ background: rgba(136, 124, 175, 0.2);
+}
+
+fieldset {
+ padding: 20px;
+ margin-bottom: 20px;
+}
+
+/*alinhamento especial de labels às caixas textuais*/
+label.alinha {
+ width: 150px;
+ display: inline-block; /*torna o label um elemento com carcaterísticas inline e de nível de bloco, ao mesmo tempo*/
+ text-align: right;
+ margin-bottom: 8px; /*afasta um label do seu vizinho, que está abaixo dele*/
+}
+
+/*fazendo o navegador formatar a caixa de nome (e somente ela) por meio do seletor de atributos*/
+input[name="nome-do-candidato"] {
+ width: 250px;
+}
+
+/*alterar a fonte para outros controles de formulários*/
+input[type="text"], input[type="number"], input[type="date"], button {
+ font-family: "Fjalla One";
+}
+
+button {
+ width: 200px;
+ height: 40px;
+ font-size: 18px;
+ font-weight: bold;
+ margin: auto; /*botões são elementos inline e, para serem centralizados automaticamente, devem ser convertidos em elementos de bloco*/
+ display: block;
+}

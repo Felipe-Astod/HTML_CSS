@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Condensed&display=swap');
+
+body {
+ font-family: "PT Sans Narrow";
+ margin: 0;
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ border-bottom: 1px #777;
+ box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+ margin-bottom: 50px;
+}
+
+p {
+ border: 1px solid #888;
+ width: 50%;
+ margin: auto; /*centralização do parágrafo*/
+ padding: 30px;
+ box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.5);
+ text-align: justify;
+}
+
+/*formatação do link*/
+a {
+ display: block; /*converte um elemento inline para bloco*/
+ /*display: inline; converte um elemento de bloco para inline*/
+ text-decoration: none;
+ color: #000;
+ font-weight: bold; /*negrito*/
+ width: 170px;
+}
+
+/*formatação do estado hover de um link*/
+a:hover {
+ border-bottom:1px solid;
+ color: #222;
+ box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+ cursor: wait;
+}
+
+/*o estado hover pode ser aplicado a qualquer elemento na página*/
+h1:hover {
+ background-color: #e1e1e1;
+ cursor: pointer;
+}

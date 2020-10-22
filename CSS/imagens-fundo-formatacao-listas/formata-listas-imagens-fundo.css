@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+ font-family: Oswald;
+ margin: 0;
+}
+
+h1 {
+ margin: 0;
+ border-bottom: 1px solid #000;
+ text-align: center;
+ background-color: #7fffd4;
+ text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+ box-shadow: 0 0 5px 5px rgba(0,0,0,0.6);
+ margin-bottom: 60px;
+}
+
+p.formata-diferente {
+ border: 1px solid #000; /*sempre que omitirmos a cor da borda, o navegador utuiliza a cor do texto em substituição à cor faltante*/
+ width: 50%;
+ margin: 30px auto;
+ padding: 30px;
+ color: #fff;
+ background-color: rgba(10,10,10,0.5);
+
+ /*aplicação de imagens de fundo*/
+ background-image: url(https://i2.wp.com/conservadorismodobrasil.com.br/wp-content/uploads/2019/11/Dilma-e-Greta-Thunberg-1.jpg?fit=720%2C539&ssl=1&resize=1280%2C720.jpg);
+
+ background-repeat: no-repeat;
+
+ background-position: 150px 50px;
+ background-size: 256px 256px;
+ background-size: 128px 128px;
+ background-size: 300px 300px;
+}
+
+ /*centralizando a lista e o título da lista na página web, por meio da div, atuando como elemento contêiner*/
+div.centraliza {
+ border: 10px solid blue;
+ width: 155px;
+ margin: 20px auto; 
+}
+
+p#centraliza {
+ text-align: center;
+}
+
+/*formatação de marcadores da lista*/
+ul {
+ list-style-type: upper-latin;
+}
+
+li {
+ list-style-type: lower-greek;
+}
+
+/*formatando itens específicos de uma lista com class*/
+li.formata-diferente {
+ list-style-type: upper-roman;
+}
+
+
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamemtos de tipos CSS </title>
+  
+  <!-- CSS incorporado-->
+  <style>
+/* não use nenhuma tag HTML aqui */
+p, ul{
+    text-decoration:underline;
+
+    font-size: 18px;
+    background-color:mediumseagreen;
+}
+
+h1{
+  color: #0000008b;  /* comflito de regras*/
+}
+
+span{
+    text-decoration:  none; /* retira o efeito do propriedade*/
+}
+
+  </style>
+  <!-- Usando CSS Externo-->
+  <link rel="stylesheet" href="fundamentos-estilos-css.css">
+<!--utilizando uma fonte do google  -->
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
+
+
+</head> 
+
+<body>
+    <!--CSS Inline  -->
+    <h1 style="color: maroon; font-family:Grandstander; text-align: center;"> Fundamentos do CSS</h1>
+
+    <p> <font face="Grandstander" color="black" size="5">Formatando o conteudo em folhas de estilo cascata<b>Formatando</b>Formatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascata</font></p>
+    
+    <p> Formatando o conteudo<span> o cu Formatando o conteudo em folhas de estilo cascata Formatando o conteudo em folhas de estilo cascata</span> em folhas de estilo cascata<i>"Formatando"</i>Formatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascataFormatando o conteudo em folhas de estilo cascata</p>
+
+
+    <!--usar class para formatar uma parte especefica-->
+    <p class="alterar-500px">Tipos de cs</p>
+    <ul>
+        <li> CSS Inline(Interno) </li>
+        <li> CSS Incorporado </li>
+        <li> CSS Externo </li>
+    </ul>
+
+</body> 
+</html> 

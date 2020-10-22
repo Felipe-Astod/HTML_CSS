@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Tabelas </title> 
+  <link rel="stylesheet" href="listaL3-tabela1.css">
+</head> 
+
+<body> 
+ <!--inserir a tabela-->
+ <table>
+  <!--aqui vai a legenda, se houver-->
+  <caption> Rendimento dos alunos em Web Design no semestre 2020/1    
+  </caption>
+
+  <tr>
+   <th> Aluno </th> 
+   <th> Matrícula </th> 
+   <th> Nota1 </th>
+   <th> Nota2 </th>
+  </tr>
+
+  <tr>
+   <td> João </td>
+   <td> A1 </td>
+   <td> 7 </td>
+   <td> 9 </td>
+  </tr>
+
+  <tr>
+   <td> Pedro </td>
+   <td> A2 </td> 
+   <td colspan="2"> 10 </td> <!--expansão de células na horizontal-->
+  </tr>
+
+  <tr>
+   <td> Ana </td>
+   <td> A3 </td>
+   <td> 8 </td>
+   <td> 6 </td>
+  </tr>
+
+  <tr>
+   <td rowspan="2" class="formata-carlos"> Carlos </td>
+   <td> A4 </td>
+   <td> 9 </td>
+   <td> 4 </td>
+  </tr>
+
+  <tr>
+   <td> A4 </td>
+   <td class="formata-cor"> 3 </td>
+   <td> 7 </td>
+  </tr>
+
+  <tr>
+   <td> Patrícia </td>
+   <td colspan="2" rowspan="2" class="formata-cor-fundo" > Dados indisponíveis </td>
+   <td> 9 </td>
+  </tr>
+
+  <tr>
+   <td> Maria </td>
+   <td> 8 </td>
+  </tr>
+ </table>
+    
+</body> 
+</html> 

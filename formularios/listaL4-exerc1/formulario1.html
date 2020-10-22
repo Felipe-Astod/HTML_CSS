@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Formulários </title> 
+  <link rel="stylesheet" href="formata-formularios.css">
+</head> 
+
+<body> 
+ <h1> Currículo on-line: cadastro </h1>
+
+ <form action="./meuarquivos-php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Dados pessoais </legend>
+
+   <label class="alinha"> Nome: </label> 
+   <input type="text" name="nome-do-candidato" autofocus> <br>
+
+   <label class="alinha"> Idade: </label>
+   <input type="number" name="idade" min="0" max="150"> <br>
+
+   <label class="alinha"> Nascimento: </label>
+   <input type="date" name="nascimento"> <br>
+  </fieldset> 
+
+  <fieldset>
+   <legend> Dados profissionais </legend>
+
+   <label> Pretensão salarial inicial: </label>
+   <input type="number" name="salario-inicial" min="0" max="10000" step="0.01"> <br> <br> <!--não esqueça que, para o navegador permitir casas decimais após a parte inteira de um número, você deve fornecer o atributo step com um incremento adequado-->
+   
+   <label> Graduado em: </label> <br>
+   <input type="radio" name="graduado" value="2020"> 2020 <br>
+   <input type="radio" name="graduado" value="2019"> 2019 <br>
+   <input type="radio" name="graduado" value="2018"> 2018 <br>
+   <input type="radio" name="graduado" value="Antes de 2018" checked> Antes de 2018 <br> <br>
+
+   <!--repare o uso de colchetes após o name. Sem os colchetes, o nosso código em PHP somente irá receber o conteúdo (value) do primeiro checkbox marcado, desprezando os demais, caso o usuário também os tenha selecionado-->
+   <label> Área de atuação: </label> <br>
+   <input type="checkbox" name="area" value="Desenvolvimento de Sistemas" checked> Desenvolvimento de Sistemas <br>
+   <input type="checkbox" name="area" value="Gestão de TI" checked> Gestão de TI
+  </fieldset>
+
+  <button type="submit" name="cadastrar"> Enviar cadastro </button>
+ </form>    
+</body> 
+</html> 

@@ -1,0 +1,33 @@
+p.formata-line{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    border: 2px solid #111111;
+    box-shadow: 50px 0 5px 5px #111111;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0px 0px 0px 20px;
+
+}
+
+p.bloq{
+    display: block;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    border: 2px solid #232323;
+    box-shadow: 50px 0 5px 5px #232323;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0px 50px 30px 20px;
+
+}
